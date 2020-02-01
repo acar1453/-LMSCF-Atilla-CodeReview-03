@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+/*******************************HEADER**********************/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4D9D9;
+    align-items: center
+    
+}
+
+.logo{
+    margin: 20px;
+}
+/*******************************Navbar**********************/
+#navbar{
+    background-color: #8C0B0B;
+}
+
+.navUL{
+    display: flex;
+    margin: 0px 0 0 10px;
+    list-style-type: none;
+    
+}
+
+#navLI {
+ margin: 10px;
+    
+}
+
+.NavA{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    
+}
+
+a:hover{
+    color: rgb(114, 107, 107);
+}
+/*******************************Main**********************/
+main{
+    position: relative;
+}
+
+#traffic {
+    width: 100%;
+    
+}
+
+.carins{
+    position: absolute;
+    margin: 50px 0 0 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 3.5em;
+    transition: all 0.5s ease-in;
+} 
+
+.carins:hover{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em;
+}
+
+/*******************************Form**********************/
+
+.form{
+
+    position: absolute;
+    background-color: rgba(175, 174, 174, 0.801);
+    width: 70%;
+    margin: 15%;
+    height: 60%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#formtext{
+    font-size: 60px;
+    font-weight: normal;
+    
+    
+}
+
+.formtext{
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+
+  
+  
+
+  
+}
+
+#country, #yourname, #yourcar, #age{
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Righteous', cursive;
+
+}
+
+#country{
+    width: 101.5%;
+}
+
+.form1,.form2{
+    margin-right: 50px;
+    
+    }
+
+p{
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.formbottom{
+    padding-top: 50px;
+}
+
+/*******************************Button**********************/
+
+.button{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+#calculate{
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    width: 25%;
+    transition-duration: 0.4s;
+    
+}
+
+#calculate:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#backgroundtitle{
+    padding-top: 0.5em;
+    font-size: 2.5em;
+    color: green;
+   
+}
+
+/*******************************TitelBottom**********************/
+
+   .title{
+    background-color: #CAC6C6;
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    margin-top: -4px;
+    padding:20px;
+
+    
+    
+}
+
+#titelbottom{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+/*******************************Footer**********************/
+
+footer{
+    background-color: black;
+    
+
+}
+
+#navbar2 {
+    background-color: black;
+}
+
+.navUL2{
+    display: flex;
+    margin: 0px 0 0 10px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+#navLi2{
+    margin: 30px;
+}
+
+.NavA2{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    margin-right: 20px;
+}
+
+.logo2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+}
+
+#logo2{
+    padding-top: 50px;
+}
+
+#codereview3{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    font-size: 15px;
+
+}
+
